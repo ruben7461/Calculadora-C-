@@ -14,14 +14,17 @@ namespace Calculadora
     public partial class Form1 : Form
     {
         Boolean numeroPulsado;
-        String operacion;
+        String operando;
         int operacion1;
+        int operacion2;
+        int resultado;
+        
         public Form1()
         {
             InitializeComponent();
         }
 
-
+       
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -29,11 +32,11 @@ namespace Calculadora
             numeroPulsado = true;
             if (label1.Text == "0")
             {
-                label1.Text = "1";
+                label1.Text = button1.Text;
             }
             else
             {
-                label1.Text += "1";
+                label1.Text += button1.Text;
             }
 
         }
@@ -43,11 +46,11 @@ namespace Calculadora
             numeroPulsado = true;
             if (label1.Text == "0")
             {
-                label1.Text = "2";
+                label1.Text = button2.Text;
             }
             else
             {
-                label1.Text += "2";
+                label1.Text += button2.Text;
             }
         }
 
@@ -147,40 +150,78 @@ namespace Calculadora
         {
 
             numeroPulsado = false;
-           
+            operacion1 = Int32.Parse(label1.Text);
             label1.Text = "0";
-            operacion = "+";
+            operando = "+";
 
+          
         }
 
         private void buttonMenos_Click(object sender, EventArgs e)
         {
             numeroPulsado = false;
+            operacion1 = Int32.Parse(label1.Text);
             label1.Text = "0";
-            operacion = "-";
+            operando = "-";
+
+            
         }
 
         private void buttonIgual_Click(object sender, EventArgs e)
         {
-            numeroPulsado = false;
-            label1.Text = "0";
-            operacion = "+";
+           
+
+                operacion2 = Int32.Parse(label1.Text);
+                Console.WriteLine(RealizarOperacion());
+            label1.Text = RealizarOperacion();
+
         }
 
         private void buttonDivision_Click(object sender, EventArgs e)
         {
             numeroPulsado = false;
+            operacion1 = Int32.Parse(label1.Text);
             label1.Text = "0";
-            operacion = "/";
+            operando = "/";
+           
         }
 
         private void buttonMultiplicar_Click(object sender, EventArgs e)
         {
             numeroPulsado = false;
+            operacion1 = Int32.Parse(label1.Text);
             label1.Text = "0";
-            operacion = "*";
+            operando = "*";
+           
+           
         }
 
+       
+        private String RealizarOperacion()
+        {
 
+            if (operando == "+")
+            {
+                resultado = operacion1 + operacion2;
+            }
+
+            if (operando == "-")
+            {
+                resultado = operacion1 - operacion2;
+            }
+
+            if (operando == "*")
+            {
+                resultado = operacion1 * operacion2;
+            }
+
+            if (operando == "/")
+            {
+                resultado = operacion1 / operacion2;
+            }
+
+            return Convert.ToString(resultado);
+            
+        }
     }
 }
