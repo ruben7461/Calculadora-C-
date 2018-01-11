@@ -43,6 +43,9 @@
             this.buttonMenos = new System.Windows.Forms.Button();
             this.buttonMultiplicar = new System.Windows.Forms.Button();
             this.buttonIgual = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -62,7 +65,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button1.Location = new System.Drawing.Point(6, 70);
+            this.button1.Location = new System.Drawing.Point(3, 87);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(53, 52);
             this.button1.TabIndex = 1;
@@ -75,7 +78,7 @@
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button2.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button2.Location = new System.Drawing.Point(65, 70);
+            this.button2.Location = new System.Drawing.Point(62, 87);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(53, 52);
             this.button2.TabIndex = 2;
@@ -88,7 +91,7 @@
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button3.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button3.Location = new System.Drawing.Point(124, 70);
+            this.button3.Location = new System.Drawing.Point(121, 87);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(53, 52);
             this.button3.TabIndex = 3;
@@ -101,7 +104,7 @@
             this.button4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button4.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button4.Location = new System.Drawing.Point(6, 128);
+            this.button4.Location = new System.Drawing.Point(3, 145);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(53, 52);
             this.button4.TabIndex = 6;
@@ -114,7 +117,7 @@
             this.button5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button5.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button5.Location = new System.Drawing.Point(65, 128);
+            this.button5.Location = new System.Drawing.Point(62, 145);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(53, 52);
             this.button5.TabIndex = 5;
@@ -127,7 +130,7 @@
             this.button6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button6.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button6.Location = new System.Drawing.Point(124, 128);
+            this.button6.Location = new System.Drawing.Point(121, 145);
             this.button6.Name = "button6";
             this.button6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.button6.Size = new System.Drawing.Size(53, 52);
@@ -141,7 +144,7 @@
             this.button7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button7.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button7.Location = new System.Drawing.Point(6, 186);
+            this.button7.Location = new System.Drawing.Point(3, 203);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(53, 52);
             this.button7.TabIndex = 9;
@@ -154,7 +157,7 @@
             this.button8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button8.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button8.Location = new System.Drawing.Point(65, 186);
+            this.button8.Location = new System.Drawing.Point(62, 203);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(53, 52);
             this.button8.TabIndex = 8;
@@ -167,7 +170,7 @@
             this.button9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button9.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button9.Location = new System.Drawing.Point(124, 186);
+            this.button9.Location = new System.Drawing.Point(121, 203);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(53, 52);
             this.button9.TabIndex = 7;
@@ -180,7 +183,7 @@
             this.buttonMas.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonMas.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonMas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.buttonMas.Location = new System.Drawing.Point(183, 70);
+            this.buttonMas.Location = new System.Drawing.Point(180, 87);
             this.buttonMas.Name = "buttonMas";
             this.buttonMas.Size = new System.Drawing.Size(53, 52);
             this.buttonMas.TabIndex = 10;
@@ -193,7 +196,7 @@
             this.buttonDivision.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonDivision.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonDivision.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.buttonDivision.Location = new System.Drawing.Point(242, 70);
+            this.buttonDivision.Location = new System.Drawing.Point(239, 87);
             this.buttonDivision.Name = "buttonDivision";
             this.buttonDivision.Size = new System.Drawing.Size(53, 52);
             this.buttonDivision.TabIndex = 11;
@@ -206,7 +209,7 @@
             this.buttonMenos.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonMenos.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonMenos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.buttonMenos.Location = new System.Drawing.Point(183, 128);
+            this.buttonMenos.Location = new System.Drawing.Point(180, 145);
             this.buttonMenos.Name = "buttonMenos";
             this.buttonMenos.Size = new System.Drawing.Size(53, 52);
             this.buttonMenos.TabIndex = 12;
@@ -219,7 +222,7 @@
             this.buttonMultiplicar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonMultiplicar.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonMultiplicar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.buttonMultiplicar.Location = new System.Drawing.Point(242, 128);
+            this.buttonMultiplicar.Location = new System.Drawing.Point(239, 145);
             this.buttonMultiplicar.Name = "buttonMultiplicar";
             this.buttonMultiplicar.Size = new System.Drawing.Size(53, 52);
             this.buttonMultiplicar.TabIndex = 13;
@@ -232,7 +235,7 @@
             this.buttonIgual.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.buttonIgual.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonIgual.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.buttonIgual.Location = new System.Drawing.Point(183, 186);
+            this.buttonIgual.Location = new System.Drawing.Point(180, 203);
             this.buttonIgual.Name = "buttonIgual";
             this.buttonIgual.Size = new System.Drawing.Size(53, 52);
             this.buttonIgual.TabIndex = 14;
@@ -240,11 +243,51 @@
             this.buttonIgual.UseVisualStyleBackColor = false;
             this.buttonIgual.Click += new System.EventHandler(this.buttonIgual_Click);
             // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button10.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.button10.Location = new System.Drawing.Point(239, 257);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(53, 52);
+            this.button10.TabIndex = 15;
+            this.button10.Text = ".";
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button11.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.button11.Location = new System.Drawing.Point(180, 257);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(53, 52);
+            this.button11.TabIndex = 16;
+            this.button11.Text = "C";
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button12.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.button12.Location = new System.Drawing.Point(239, 203);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(53, 52);
+            this.button12.TabIndex = 17;
+            this.button12.Text = "√";
+            this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.buttonRaizCuadrada);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(311, 250);
+            this.ClientSize = new System.Drawing.Size(309, 321);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button10);
             this.Controls.Add(this.buttonIgual);
             this.Controls.Add(this.buttonMultiplicar);
             this.Controls.Add(this.buttonMenos);
@@ -285,6 +328,9 @@
         private System.Windows.Forms.Button buttonMenos;
         private System.Windows.Forms.Button buttonMultiplicar;
         private System.Windows.Forms.Button buttonIgual;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
     }
 }
 

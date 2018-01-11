@@ -15,9 +15,9 @@ namespace Calculadora
     {
         Boolean numeroPulsado;
         String operando;
-        int operacion1;
-        int operacion2;
-        int resultado;
+        double operacion1;
+        double operacion2;
+        double resultado;
         
         public Form1()
         {
@@ -150,7 +150,7 @@ namespace Calculadora
         {
 
             numeroPulsado = false;
-            operacion1 = Int32.Parse(label1.Text);
+            operacion1 = Double.Parse(label1.Text);
             label1.Text = "0";
             operando = "+";
 
@@ -160,7 +160,7 @@ namespace Calculadora
         private void buttonMenos_Click(object sender, EventArgs e)
         {
             numeroPulsado = false;
-            operacion1 = Int32.Parse(label1.Text);
+            operacion1 = Double.Parse(label1.Text);
             label1.Text = "0";
             operando = "-";
 
@@ -171,7 +171,7 @@ namespace Calculadora
         {
            
 
-                operacion2 = Int32.Parse(label1.Text);
+                operacion2 = Double.Parse(label1.Text);
                 Console.WriteLine(RealizarOperacion());
             label1.Text = RealizarOperacion();
 
@@ -180,7 +180,7 @@ namespace Calculadora
         private void buttonDivision_Click(object sender, EventArgs e)
         {
             numeroPulsado = false;
-            operacion1 = Int32.Parse(label1.Text);
+            operacion1 = Double.Parse(label1.Text);
             label1.Text = "0";
             operando = "/";
            
@@ -189,14 +189,21 @@ namespace Calculadora
         private void buttonMultiplicar_Click(object sender, EventArgs e)
         {
             numeroPulsado = false;
-            operacion1 = Int32.Parse(label1.Text);
+            operacion1 = Double.Parse(label1.Text);
             label1.Text = "0";
             operando = "*";
            
            
         }
 
-       
+        private void buttonRaizCuadrada(object sender, EventArgs e)
+        {
+            numeroPulsado = false;
+            operacion1 = Double.Parse(label1.Text);
+            operando = "√";
+            label1.Text = RealizarOperacion();
+        }
+
         private String RealizarOperacion()
         {
 
@@ -220,8 +227,15 @@ namespace Calculadora
                 resultado = operacion1 / operacion2;
             }
 
+            if (operando == "√")
+            {
+                resultado = Math.Sqrt(operacion1);
+            }
+
             return Convert.ToString(resultado);
             
         }
+
+       
     }
 }
