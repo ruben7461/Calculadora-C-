@@ -60,11 +60,11 @@ namespace Calculadora
             numeroPulsado = true;
             if (label1.Text == "0")
             {
-                label1.Text = "3";
+                label1.Text = button3.Text;
             }
             else
             {
-                label1.Text += "3";
+                label1.Text += button3.Text;
             }
         }
 
@@ -73,11 +73,11 @@ namespace Calculadora
             numeroPulsado = true;
             if (label1.Text == "0")
             {
-                label1.Text = "4";
+                label1.Text = button4.Text;
             }
             else
             {
-                label1.Text += "4";
+                label1.Text += button4.Text;
             }
         }
 
@@ -86,11 +86,11 @@ namespace Calculadora
             numeroPulsado = true;
             if (label1.Text == "0")
             {
-                label1.Text = "5";
+                label1.Text = button5.Text;
             }
             else
             {
-                label1.Text += "5";
+                label1.Text += button5.Text;
             }
         }
 
@@ -99,11 +99,11 @@ namespace Calculadora
             numeroPulsado = true;
             if (label1.Text == "0")
             {
-                label1.Text = "6";
+                label1.Text = button6.Text;
             }
             else
             {
-                label1.Text += "6";
+                label1.Text += button6.Text;
             }
         }
 
@@ -112,11 +112,11 @@ namespace Calculadora
             numeroPulsado = true;
             if (label1.Text == "0")
             {
-                label1.Text = "7";
+                label1.Text = button7.Text;
             }
             else
             {
-                label1.Text += "7";
+                label1.Text += button7.Text;
             }
         }
 
@@ -125,11 +125,11 @@ namespace Calculadora
             numeroPulsado = true;
             if (label1.Text == "0")
             {
-                label1.Text = "8";
+                label1.Text = button8.Text;
             }
             else
             {
-                label1.Text += "8";
+                label1.Text += button8.Text;
             }
         }
 
@@ -138,11 +138,11 @@ namespace Calculadora
             numeroPulsado = true;
             if (label1.Text == "0")
             {
-                label1.Text = "9";
+                label1.Text = button9.Text;
             }
             else
             {
-                label1.Text += "9";
+                label1.Text += button9.Text;
             }
         }
 
